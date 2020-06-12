@@ -22,7 +22,7 @@ it("correctly calculates the quotient of 10 and 2", () => {
 })
 
 it("indicates a failure when a string is used instead of a number", () => {
-  assert.equal(operations.validateNumbers("sammy", 5), false)
+  assert.equal(operations.validateNumbers("cher", 5), false)
 })
 
 it("indicates failure when two strings are used instead of numbers", () => {
