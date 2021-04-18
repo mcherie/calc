@@ -8,4 +8,4 @@ const validateNumbers = (x,y) => {
   return (isNaN(x) || isNaN(y)) ? false : true
 }
 
-module.exports = { add, subtract, multiply, divide, validateNumbers }
+module.exports = { add, subtract, multiply, divide, validateNumbers, sqrt}
